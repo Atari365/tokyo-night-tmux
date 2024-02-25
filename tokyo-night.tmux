@@ -22,7 +22,8 @@ tmux set -g message-command-style "fg=#c0caf5,bg=#2A2F41"
 tmux set -g pane-border-style "fg=#2A2F41"
 tmux set -g pane-active-border-style "fg=#7aa2f7"
 
-tmux set -g status-style bg="#1A1B26"
+#tmux set -g status-style bg="#1A1B26"
+set-option -g status-style bg=NONE
 
 SCRIPTS_PATH="$CURRENT_DIR/src"
 TMUX_VARS="$(tmux show -g)"
